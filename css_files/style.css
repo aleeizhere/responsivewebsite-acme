@@ -179,7 +179,7 @@ ul#services li{
 }
 #services .packages{
     font-weight: bold;
-    float: right;
+    float:right;
     border: none;
     background-color:#e8491d;
     color: #ffffff;
@@ -187,7 +187,9 @@ ul#services li{
     padding: 14px;
     border-radius: 10px;
 }
-
+#services .packages:hover{
+    background-color: #b33714;
+}
 /* footer */
 footer{
     padding: 20px;
@@ -195,9 +197,6 @@ footer{
     color: #ffffff;
     background-color: #e8491d;
     text-align: center;
-}
-#services .packages:hover{
-    background-color: #b33714;
 }
 
 /*Media Queries*/
