@@ -216,6 +216,9 @@ footer{
         text-align: center;
         color: #ffffff;
     }
+    #boxes .box{
+        width: 90%;
+    }
     #services .packages{
         float: none;
         width: 200px;
